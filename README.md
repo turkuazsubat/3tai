@@ -1,15 +1,15 @@
 # 3tai
 
-## Proje Özeti  
-3tai, klasik Tic Tac Toe (XOX) oyununun yapay zeka destekli versiyonudur. Kullanıcı dostu arayüzü ve güçlü yapay zekası ile tek kişilik oyun deneyimini zenginleştirir. Minimax algoritması kullanılarak geliştirilmiş yapay zeka, oyuncuya karşı stratejik ve zorlu hamleler yapar.
+## Project Overview  
+3tai is an AI-powered version of the classic Tic Tac Toe game. It offers a user-friendly interface and a challenging single-player experience powered by a robust artificial intelligence. The AI uses the Minimax algorithm to make strategic moves against the player.
 
-## Çalışma Prensibi  
-3x3'lük tahta üzerinde oyuncu ve yapay zeka sırayla hamle yapar. Amaç, yatay, dikey ya da çaprazda üç aynı sembolü yan yana getirmektir. Yapay zeka, minimax algoritması ile tüm olası hamleleri değerlendirip en avantajlı hamleyi seçer, böylece oyuncuya meydan okur.
+## How It Works  
+Players and the AI take turns placing their marks on a 3x3 board. The goal is to align three identical symbols horizontally, vertically, or diagonally. The AI evaluates all possible moves using the Minimax algorithm to choose the most advantageous play, providing a competitive challenge.
 
-## Kullanılan Yapay Zeka Teknikleri  
-- **Minimax Algoritması:** Oyun senaryolarını derinlemesine tarar, en iyi hamleyi belirler.  
-- **Heuristik Değerlendirme:** Oyun tahtasının durumunu puanlayarak seçim yapmayı optimize eder.  
-- **Rastgele Hamle (Düşük Zorluk):** Oyuncunun kolay kazanması için bazı hamleler rastgele seçilir.
+## AI Techniques Used  
+- **Minimax Algorithm:** Explores game scenarios deeply to select the optimal move.  
+- **Heuristic Evaluation:** Scores board states to optimize decision-making.  
+- **Random Move (Easy Mode):** Introduces randomness to allow easier wins for beginners.
 
-## Yapay Zekanın Projedeki Rolü  
-Tek oyunculu modda, oyuncunun hamlesi sonrası yapay zeka tahtayı analiz eder ve optimizasyonla en uygun hamleyi yapar. Bu, oyunu gerçekçi ve rekabetçi kılar.
+## Role of AI in the Project  
+In single-player mode, after the player’s move, the AI analyzes the board and uses optimization strategies to select the best possible move, making the gameplay realistic and engaging.
